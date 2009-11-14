@@ -3,6 +3,64 @@ ________________________________________________________________________________
                     INVASION FROM THE UNKNOWN - CHANGELOG
 ________________________________________________________________________________
 
+Version 1.70.1:
+- Scenarios:
+    - 7 (The Elf and Goliath):
+        - Fix extremely coward boss AI.
+    - 8 (Errand of Hope):
+        - Got rid of the nagas.
+        - Made several changes in the initial dialog sequence.
+    - 10 (Source of Light):
+        - Set a sensible minimum amount of gold for the player.
+    - 11 (Strike on New Knalga):
+        - Set a sensible minimum amount of gold for the player.
+
+- Units:
+    - Balancing:
+        - Increased imps' resistances to arcane damage from -50% to -10%
+        - Increased Armageddon Imp's resistance to impact damage from 10% to 20%
+        - Increased Minor Imp's resistance to impact damage from -50% to -20%
+        - Reset Regular Imp's resistances to the base values for the impfoot
+          movetype
+        - Changed Demon Zephyr's resistances as follows:
+            - Blade: 20% -> 0%
+            - Impact: 10% -> 0%
+            - Arcane: -50% -> -10%
+            - Cold: -10% -> 0%
+        - Changed Demon unit tree resistances as follows:
+            - Blade:
+                - Base: 20% -> 0%
+                - Grunt: 40% -> 20%
+                - Warrior: 50% -> 20%
+            - Pierce:
+                - Grunt: 20% -> base
+                - Warrior: 40% -> 10%
+            - Impact:
+                - Base: 10% -> 0%
+                - Grunt: 20% -> 10%
+                - Warrior: 30% -> 20%
+            - Arcane: -50% -> -10%
+            - Cold:
+                - Base: -10% -> 0%
+                - Grunt, Warrior: base -> 10%
+        - Changed Shaxthal Warlord's resistances as follows:
+            - Blade: 30% -> 20%
+            - Fire: base -> 30%
+            - Arcane: -50% -> -10%
+        - Increased Shaxthal Warlord's hitpoints from 190 to 196
+        - Changed Master of Darkness' resistances as follows:
+            - Impact: 20% -> 30%
+            - Pierce: 40% -> 30%
+            - Arcane: 20% -> -10%
+        - Increased Mechanical Goliath's base hitpoints from 58 to 61
+        - Increased Automaton's hitpoints from 36 to 38
+        - Increased Worker Droid's hitpoints from 17 to 20
+    - Removed units: Sand Troll line
+    - The following units are no longer affected by plague: Fungoid, Giant Ant,
+      Lesser Giant Spider, Leech, Giant Leech, Brain Drainer Leech, Crow,
+      Falcon, Rabbit, Eyestalk.
+________________________________________________________________________________
+
 Version 1.70.0:
 - Administration and maintenance:
     - Minimum Wesnoth version requirement is 1.7.6
@@ -578,6 +636,6 @@ Version 1.10.0 (interim release):
     - Simplified Shaxthal's unit_type variation WML
 ________________________________________________________________________________
 
-; $Id: ChangeLog 5477 2009-10-05 22:56:09Z shikadilord $
+; $Id: ChangeLog 5663 2009-11-09 13:15:29Z shikadilord $
 ; kate: indent-mode normal; encoding utf-8; space-indent on; word-wrap on;
 ; vim: tabstop=4: shiftwidth=4: expandtab: softtabstop=4: autoindent:
